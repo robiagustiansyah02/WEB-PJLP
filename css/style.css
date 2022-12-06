@@ -801,8 +801,21 @@ ul.cont li {
 .our_box {
      margin-bottom: 30px;
      text-align: center;
-     background-color: #00a8e7;
-     border-radius: 20%;
+     
+}
+
+.our_box .nav-link {
+     font-size: 17px;
+     background-color: transparent;
+     color: #7a7a7a;
+     padding: 8px 0px;
+     width: 70%;
+     text-align: center;
+     display: inline-block;
+     border-radius: 30px;
+     border: #00aaea solid 3px;
+     transition: ease-in all 0.5s;
+     margin-top: 5%;
 }
 
 .our_box figure {
